@@ -1,0 +1,38 @@
+
+    body{
+        background-color: darkgray;
+    } 
+
+    .cell{
+        height:10vh;
+        width: 10vh;
+        background-color: blue;
+        border: black 0.4vh solid;
+    }
+    .board{
+        margin-top: 3vh;
+        justify-content: center;
+        display: flex;
+        flex-direction:row;
+        
+        
+    }
+    .red{
+        background-color: red;
+    }
+
+    .yellow{
+        background-color: yellow;
+    }
+
+    .message{
+        display:flex;
+        justify-content:center;
+        height: 5vh;
+        width: 20vw;
+        font-size: 2vh;
+        background-color: white;
+        border: black 0.2vh solid;
+        margin-top: 3vh;
+        margin-left: 40vw;
+    }
